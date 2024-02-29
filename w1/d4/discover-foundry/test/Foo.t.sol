@@ -39,7 +39,7 @@ contract FooTest is PRBTest, StdCheats {
 
     /// This test will fail
     function test_Bastien() external {
-        uint256 x = 42;
+        uint256 x = 421;
         assertEq(42, x, "value mismatch");
     }
 
